@@ -1,0 +1,20 @@
+# Table Name
+Cars
+
+## Table Structure
+- ID | BIGINT - AUTO_INCREMENT - PRIMARY_KEY (UNIQUE, NOTNULL)
+- Marca | VARCHAR(30) NOTNULL
+- Modello | VARCHAR(30) NOTNULL 
+- Tipo | VARCHAR(30) NULL 
+- Colore | VARCHAR(30) NULL 
+- Porte |  TINYINT NULL DEFAULT(5)
+- Posti | TINYINT NULL DEFAULT(4)
+- Km | MEDIUMINT NOTNULL
+- Prezzo | MEDIUMINT NOTNULL
+- Garanzia_IN_MESI |  TINYINT NULL DEFAULT(0)
+- Alimentazione | VARCHAR(20) NULL DEFAUTL(BENZINA) 
+- Capacità_inquinante | VARCHAR(30) NOTNULL 
+- Anno | YEAR NOTNULL
+- Immatricolazione | YEAR NOTNULL
+- Stato_di_Conservazione | VARCHAR(30) NULL
+
